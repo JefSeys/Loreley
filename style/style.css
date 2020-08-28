@@ -29,9 +29,24 @@ html {
     font-family: Arial, "Roboto", sans-serif;
   }
 
-  #deWoning,
-  #ligging,
-  #recensies{
+  .recensie{
+    height: 200px;
+  }
+
+  .rechts img, .links img{
+    height: 200px;
+  }
+
+  .rechts, .links{
+    width: 50%;
+    padding-left: 10%;
+  }
+
+  .verticalCenter {
+    margin: auto;
+  }
+
+  .recensie{
     background-color: white;
   }
 
