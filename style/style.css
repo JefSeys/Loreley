@@ -2,14 +2,109 @@ html {
     scroll-behavior: smooth;
   }
 
-  .logo{
-    width: 300px;
-    float: left;
+  
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  border-radius: 10px;
+  color: black;
+}
+
+  #navbar {
+    padding: 25px;
+    overflow: hidden;
+    background-color: #366291;
+    border-bottom: #366291 solid 2px;
+    z-index: 1;
+    font-family: Arial, "Roboto", sans-serif;
+  }
+
+  #home,
+  #deWoning,
+  #info,
+  #ligging,
+  #contact,
+  #recensies {
+    padding-top: 120px;
+  }
+
+  .introImg{
+    width: 50%;
+  }
+
+  .intro{
+    margin-left: 10%;
   }
 
   .titel{
     float: right;
   }
+
+  .rowImg{
+    width: 40%;
+  }
+
+  .naastElkaar {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .info {
+    margin-left: 10%;
+  }
+
+  .infoDeel1,
+.infoDeel2,
+.infoDeel3 {
+  width: 33%;
+  margin-bottom: 50px;
+}
+
+.infoDelen {
+  display: flex;
+}
+
+.opsommingTitel {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.eersteContact {
+  width: 49%;
+  float: left;
+  padding-right: 5%;
+  text-decoration: none;
+  text-align: right;
+}
+
+.tweedeContact {
+  width: 49%;
+  padding-left: 7%;
+}
+
+.eersteContact ul li,
+.tweedeContact ul li {
+  list-style-type: none;
+}
+  
+
+.imageGroot {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 86vh;
+}
   
 .sticky {
   position: fixed;
@@ -71,7 +166,6 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-size: 100%;
-    color: white;
     font-weight: bold;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -115,15 +209,6 @@ html {
     margin: auto;
   }
   
-  .row > .column {
-    padding: 0 8px;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
   
   .column {
     float: left;
@@ -507,5 +592,17 @@ html {
     .footer-distributed .footer-center i {
       margin-left: 0;
     }
+
+    .infoDeel1,
+  .infoDeel2,
+  .infoDeel3 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .infoDelen {
+    display: table;
+    margin: 0 auto;
+  }
   }
   
