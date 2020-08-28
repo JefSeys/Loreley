@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <link rel="icon" href="img/icon.png" />
   <link href="style/reset_browser_styles.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style/font-awesome.min.css" />
+  <link rel="stylesheet" href="style/all.css" />
   <link href="style/style.css" rel="stylesheet" />
 </head>
 
@@ -27,15 +27,22 @@
       <h2 class="center">Vakantiewoning Loreley</h2>
       <div class="titelLijn center"></div>
       <div class="naastElkaar">
-        
-          <img class="introImg" src="img/Lorelei.jpg">
-        
+
+        <img class="introImg" src="img/Lorelei.jpg">
+
         <div class="intro">
           <h4>
-            Duinvis is een vakantiewoning met alle comfort en voeten in het zand.
-            Binnenin is er mooi Noordzeelicht en zicht op duinenzand.
-            De gezellige kleuren en tijdloze eenvoud brengen je onmiddellijk in vakantiesfeer.
-            Duinvis is rustig gelegen op 800m van het mooie strand van Sint -Andr&eacute;.
+            Vakantiewoning Loreley ligt in Oostduinkerke-Bad, op 1,3 km van het strand van Nieuwpoort, in een gebied
+            waar u kunt fietsen. Dit vakantiehuis beschikt over een tuin, barbecuefaciliteiten, gratis WiFi en gratis
+            privéparkeergelegenheid.
+
+            Het vakantiehuis heeft 5 slaapkamers, een kabel-tv, een ingerichte keuken met een vaatwasser en een
+            magnetron, en 2 badkamers met een douche.
+
+            Het vakantiehuis beschikt over een terras.
+
+            De dichtstbijzijnde luchthaven is de internationale luchthaven Oostende-Brugge, op 18 km van Vakantiewoning
+            Loreley.
           </h4>
         </div>
       </div>
@@ -47,8 +54,8 @@
       <div class="imageShow">
         <h4 class="center">Albert I Laan 147, Oostduinkerke</h4>
         <div class="centerDiv">
-          <li>5 slaapkamers</li>
-          <li>2 badkamers</li>
+          <p><i class="fa fa-bed"></i>&nbsp;5 slaapkamers</p>
+          <p><i class="fa fa-shower"></i>&nbsp;2 badkamers</p>
         </div>
         <a onclick="openModal();currentSlideLightbox(1)" class="button1 center"
           style="margin-bottom: 20px; margin-top: 20px;">Meer foto's</a>
@@ -322,12 +329,30 @@
     <div id="info">
       <h2 class="center">Info</h2>
       <div class="titelLijn center"></div>
+      <div class="naastElkaar">
+        <div class="iconInfo center">
+          <p style="font-size: 20px;">200 m&sup2;</p>
+          <p class="iconTekst">Grootte</p>
+        </div>
+        <div class="iconInfo center">
+          <p><i class="fa fa-tree fa-2x"></i></p>
+          <p class="iconTekst">Tuin</p>
+        </div>
+        <div class="iconInfo center">
+          <p><i class="fa fa-paw fa-2x"></i></p>
+          <p class="iconTekst">Huisdieren toegestaan</p>
+        </div>
+        <div class="iconInfo center">
+          <p><i class="fa fa-utensils fa-2x"></i></p>
+          <p class="iconTekst">Barbecuevoorzieningen</p>
+        </div>
+      </div>
       <div class="info">
         <div class="infoDelen">
           <div class="infoDeel1">
             <h3 class="opsommingTitel">Algemeen</h3>
             <li class="opsomming">Prijs: &euro; 200 / nacht</li>
-            <li class="opsomming">8 personen</li>
+            <li class="opsomming">10 personen</li>
             <li class="opsomming">Toekomen vanaf 17u00</li>
             <li class="opsomming">Vertrekken om 10u00</li>
           </div>
@@ -395,9 +420,48 @@
         </div>
       </div>
     </div>
-
+    
     <div id="recensies">
+      <h2 class="center">Recensies</h2>
+      <div class="titelLijn center"></div>
+      <br>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width slides/quotes -->
 
+        <div class="mySlidesReview">
+          <q>
+            De ligging is perfect, het huis is ruim genoeg voor 10 personen. 
+            Huis is mooi ingericht, heel stijlvol. Er zijn voldoende badkamers aanwezig.
+          </q>
+          <p class="author center">- Ken</p>
+        </div>
+
+        <div class="mySlidesReview">
+          <q>Comfortabel, smaakvol ingericht.
+            Helder 
+            Lakens en handdoeken zijn inbegrepen: zeer handig!
+            We hadden een geweldig verblijf 
+          </q>
+          <p class="author center">- Anoniem</p>
+        </div>
+
+        <div class="mySlidesReview">
+          <q>Perfect huis, zeer comfortabel en zeer schoon perfect voor een familie verblijf
+          </q>
+          <p class="author center">- Christian</p>
+        </div>
+
+        <!-- Next/prev buttons -->
+        <a class="prevReview" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="nextReview" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
   </div>
 </body>
@@ -491,4 +555,5 @@
 
   }
 </script>
+<script src="js/slideshow.js"></script>
 <script src="js/lightbox.js"></script>
