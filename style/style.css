@@ -4,10 +4,18 @@ html {
 
   
 
+.titelLijn {
+  width: 100px;
+  border-top: 2px solid #366291;
+  margin-bottom: 20px;
+}
+
+  
+
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,7 +31,7 @@ html {
   #navbar {
     padding: 10px;
     overflow: hidden;
-    background-color: grey;
+    background-color: #DBDBDB;
     border-bottom: #366291 solid 2px;
     z-index: 1;
     font-family: Arial, "Roboto", sans-serif;
@@ -31,6 +39,12 @@ html {
 
   .recensie{
     height: 200px;
+  }
+
+  .recensieKleur{
+    height: 250px;
+    background-color: lightgrey;
+    padding-top: 25px;
   }
 
   .rechts img, .links img{
@@ -49,6 +63,8 @@ html {
   #home{
     padding-top: 120px;
     padding-bottom: 50px;
+    height: 100vh;
+    margin-top: 10vh;
   }
 
   #deWoning,
@@ -185,16 +201,16 @@ html {
   }
   
   body {
-    /*
-    background-color: #fff9ed;*/
-    background-image: url("../img/achtergrond.jpg");
+    
+    background-color: white;/*
+    background-image: url("../img/achtergrond.jpg");*/
     background-size: cover;
     background-attachment: fixed;
     background-size: 100%;
     font-weight: bold;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
+    color: black;
   }
   
   h2 {
