@@ -61,7 +61,7 @@ html {
   }
 
   #home{
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 50px;
     height: 100vh;
     margin-top: 10vh;
@@ -72,16 +72,30 @@ html {
   #ligging,
   #contact,
   #recensies {
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 50px;
   }
 
+  .topImg{
+    max-width: 100%;
+  }
+
   .introImg{
-    width: 50%;
+    width: 100%;
+        height: auto;
+  }
+
+  .introImgContainer{
+    width: 400%;
+    margin: 0 auto;
   }
 
   .intro{
     margin-left: 10%;
+  }
+
+  .imgLigging{
+    width: 80%;
   }
 
   .titel{
