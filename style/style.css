@@ -15,7 +15,7 @@ html {
 #navbar a {
   float: left;
   display: block;
-  color: black;
+  color: #dbd9db;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,15 +23,15 @@ html {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #666;
   border-radius: 10px;
-  color: black;
+  color: white;
 }
 
   #navbar {
     padding: 10px;
     overflow: hidden;
-    background-color: #DBDBDB;
+    background-color: #666;
     border-bottom: #366291 solid 2px;
     z-index: 1;
     font-family: Arial, "Roboto", sans-serif;
@@ -43,7 +43,7 @@ html {
 
   .recensieKleur{
     height: 250px;
-    background-color: lightgrey;
+    background-color: #938e93;
     padding-top: 25px;
   }
 
@@ -92,6 +92,10 @@ html {
 
   .intro{
     margin-left: 10%;
+  }
+
+  .logotext{
+    color: #dbd9db;
   }
 
   .imgLigging{
@@ -216,7 +220,7 @@ html {
   
   body {
     
-    background-color: white;/*
+    background-color: #5d5c60;/*
     background-image: url("../img/achtergrond.jpg");*/
     background-size: cover;
     background-attachment: fixed;
@@ -224,7 +228,7 @@ html {
     font-weight: bold;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: #dbd9db;
   }
   
   h2 {
