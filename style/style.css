@@ -2,7 +2,38 @@ html {
     scroll-behavior: smooth;
   }
 
+  .gallery{
+    position: relative;
+    height: 500px;
+    width: 600px;
+  }
+
+  .gallery img{
+    max-height: 100%;
+    max-width: 100%;
+    top: 50%;
+  }
+
+  .prevgallery,
+  .nextgallery {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
   
+  .nextgallery {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
 .titelLijn {
   width: 100px;
@@ -86,12 +117,23 @@ html {
   }
 
   .introImgContainer{
-    width: 400%;
-    margin: 0 auto;
+    width: 40%;
+    position: absolute;
+    padding-left: 10%;
+  }
+
+  .naastElkaarIntro{
+    position: relative;
+    height: 500px;
+    width: 100%;
   }
 
   .intro{
-    margin-left: 10%;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    padding-right: 10%;
   }
 
   .logotext{
