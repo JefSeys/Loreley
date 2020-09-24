@@ -18,7 +18,7 @@ function showGallery(n){
 
     clearTimeout(timer);
     
-    timer = setTimeout(() => showGallery( index += 1), 8000);
+    timer = setTimeout(() => showGallery( index += 1), 3000);
 
     timer;
 }
