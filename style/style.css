@@ -2,6 +2,14 @@ html {
     scroll-behavior: smooth;
   }
 
+  h2{
+    font-size: 200%;
+  }
+
+  .stippenKlein {
+    display: none;
+  }
+
   .gallery{
     position: relative;
     height: 500px;
@@ -94,8 +102,6 @@ html {
   #home{
     padding-top: 60px;
     padding-bottom: 50px;
-    height: 100vh;
-    margin-top: 10vh;
   }
 
   #deWoning,
@@ -108,7 +114,7 @@ html {
   }
 
   .topImg{
-    max-width: 100%;
+    width: 100%;
   }
 
   .introImg{
@@ -730,6 +736,42 @@ html {
   .infoDelen {
     display: table;
     margin: 0 auto;
+  }
+  
+  .stippenKlein {
+    display: block;
+    float: left;
+  }
+
+  .titel {
+    display: none;
+  }
+
+  #navbar a {
+    float: none;
+  }
+
+  .introImgContainer{
+    width: 100%;
+    position: relative;
+    padding: auto;
+  }
+
+  .naastElkaarIntro{
+    position: relative;
+    height: unset;
+    width: 100%;
+  }
+
+  .intro{
+    width: 100%;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .gallery{
+    max-width: 100%;
   }
   }
   

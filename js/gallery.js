@@ -9,7 +9,6 @@ timer = setTimeout(() => showGallery( index += 1), 8000);
 function showGallery(n){
     var i;
     var gallery = document.getElementsByClassName("galleryImg");
-    console.log(gallery)
     if (n > gallery.length) {index = 1}
     if (n < 1) {index = gallery.length}
     for (i = 0; i < gallery.length; i++) {
