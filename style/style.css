@@ -716,7 +716,37 @@ html {
   }
   
   /* If you don't want the footer to be responsive, remove these media queries */
+  @media (max-width: 1200px){
+    #navbar a{
+      font-size: 18px;
+    }
+
+    .introImgContainer{
+      width: 100%;
+      position: relative;
+      padding: auto;
+    }
   
+    .naastElkaarIntro{
+      position: relative;
+      height: unset;
+      width: 100%;
+    }
+  
+    .intro{
+      padding-top: 20px;
+      width: 100%;
+      position: relative;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .gallery{
+      max-width: 100%;
+    }
+  }
+
+
   @media (max-width: 880px) {
     .footer-distributed {
       font: bold 14px sans-serif;
@@ -760,27 +790,6 @@ html {
     float: none;
   }
 
-  .introImgContainer{
-    width: 100%;
-    position: relative;
-    padding: auto;
-  }
 
-  .naastElkaarIntro{
-    position: relative;
-    height: unset;
-    width: 100%;
-  }
-
-  .intro{
-    width: 100%;
-    position: relative;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .gallery{
-    max-width: 100%;
-  }
   }
   
