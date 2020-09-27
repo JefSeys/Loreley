@@ -186,6 +186,15 @@ html {
     margin-left: 10%;
   }
 
+  .naastElkaarInfo4Icon{
+    display: flex;
+  }
+  
+  .naastElkaarInfo2Icon{
+    display: flex;
+    width: 50%;
+  }
+
   .info {
     margin-left: 10%;
   }
@@ -225,7 +234,7 @@ html {
 }
 
 .iconInfo{
-  width: 25%;
+  width: 50%;
 }
   
 
@@ -816,6 +825,19 @@ html {
   .naastElkaarContact{
     display: block;
   }
+
+  .naastElkaarInfo4Icon{
+    display: block;
+  }
+  
+  .naastElkaarInfo2Icon{
+    display: flex;
+    width: 100%;
+  }
+  
+.iconInfo{
+  width: 50%;
+}
 
   .eersteContact, .tweedeContact{
     text-align: center;
