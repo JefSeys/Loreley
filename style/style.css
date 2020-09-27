@@ -84,15 +84,16 @@ html {
     z-index: 1;
     font-family: Arial, "Roboto", sans-serif;
   }
-
+/*
   .recensie{
     height: 200px;
-  }
+  }*/
 
   .recensieKleur{
-    height: 250px;
+    /*height: 250px;*/
     background-color: #938e93;
     padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .rechts img, .links img{
@@ -168,6 +169,18 @@ html {
   }
 
   .naastElkaar {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .naastElkaarRecensie{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .naastElkaarContact {
     display: flex;
     margin-right: 10%;
     margin-left: 10%;
@@ -796,6 +809,34 @@ html {
     float: none;
   }
 
+  .naastElkaarRecensie{
+    display: block;
+  }
 
+  .naastElkaarContact{
+    display: block;
+  }
+
+  .eersteContact, .tweedeContact{
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .eersteContact{
+    padding-bottom: 40px;
+  }
+
+  .links, .rechts{
+    width: 80%;
+    padding: unset;
+  }
+
+  .rechts{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
   }
   
