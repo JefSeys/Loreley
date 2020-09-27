@@ -860,5 +860,9 @@ html {
     margin: 0 auto;
     text-align: center;
   }
+
+  .imgLigging{
+    width: 100%;
+  }
   }
   
